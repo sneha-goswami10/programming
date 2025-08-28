@@ -13,23 +13,23 @@ void main()
     a = b/3;
     printf("\naverage = %d",a);
     printf("\n");
-    if(a>=70)
+    if(a>=70 && a<!35)
     {
         printf("distinction");
     }
-    if(a>=60)
+    if(a>=60 && a<70 && a<!35)
     {
         printf("first class");
     }
-    if(a>=50)
+    if(a>=50 && a<60 && a<!35)
     {
         printf("second class");
     }
-    if(a>=35)
+    if(a>=35 && a<50 && a<!35)
     {
         printf("third class");
     }
-    if(a<35)
+    if(a<35 || x<35 || y<35 || z<35)
     {
         printf("fail");
     }
